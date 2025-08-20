@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advait Alinkil | Portfolio</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Inter', sans-serif;
+            background-color: #111827; 
+        }
+        .gradient-text {
+            background: linear-gradient(to right, #38bdf8, #818cf8);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .skill-tag {
+            background-color: #1f2937;
+            color: #d1d5db;
+            padding: 6px 12px;
+            border-radius: 9999px;
+            font-size: 0.875rem;
+            font-weight: 500;
+            transition: all 0.2s ease-in-out;
+        }
+        .skill-tag:hover {
+            background-color: #38bdf8;
+            color: #111827;
+        }
+        .project-card, .education-card {
+            background-color: #1f2937;
+            border: 1px solid #374151;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .project-card:hover, .education-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 15px -3px rgba(56, 189, 248, 0.1), 0 4px 6px -2px rgba(56, 189, 248, 0.05);
+        }
+    </style>
+</head>
+<body class="text-gray-300">
+
+    
+    <header class="min-h-screen flex items-center justify-center text-center px-4 py-16">
+        <div class="max-w-4xl mx-auto">
+            <h1 class="text-5xl md:text-7xl font-extrabold text-white leading-tight">
+                Advait Alinkil
+            </h1>
+            <p class="mt-6 max-w-2xl mx-auto text-lg text-gray-400">
+                Computer Engineering student with a strong foundation in Python and JavaScript. 
+                Passionate about building efficient, scalable backend applications and exploring new technologies.
+                Actively seeking internship opportunities.
+            </p>
+            <div class="mt-10 flex flex-wrap items-center justify-center gap-4">
+                <a href="https://drive.google.com/file/d/12WvNWLFAdch-bwSHbXI21DBU6Oz1Yi5B/view?usp=drivesdk" target="_blank" class="bg-sky-500 text-white font-semibold px-8 py-3 rounded-full hover:bg-sky-600 transition-colors duration-300 inline-flex items-center gap-2">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/><line x1="10" y1="9" x2="8" y2="9"/></svg>
+                    View Resume
+                </a>
+                <div class="flex items-center justify-center gap-5">
+                    <a href="https://github.com/advait2711" target="_blank" class="text-gray-400 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/></svg></a>
+                    <a href="https://www.linkedin.com/in/advait-alinkil-2555a8259/" target="_blank" class="text-gray-400 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"/><rect width="4" height="12" x="2" y="9"/><circle cx="4" cy="4" r="2"/></svg></a>
+                    <a href="mailto:advaitsanoj@gmail.com" class="text-gray-400 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect width="20" height="16" x="2" y="4" rx="2"/><path d="m22 7-8.97 5.7a1.94 1.94 0 0 1-2.06 0L2 7"/></svg></a>
+                    <a href="https://leetcode.com/u/advait2003/" target="_blank" class="text-gray-400 hover:text-white transition-colors"><svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 8.5v2.5m0 2.5v2.5m-3-2.5h6"/><path d="M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"/></svg></a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-5xl mx-auto px-4">
+
+        
+        <section id="education" class="py-20 border-t border-b border-gray-800">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Education & Coursework</h2>
+            <div class="max-w-3xl mx-auto grid md:grid-cols-2 gap-8">
+                
+                <div class="education-card rounded-xl p-6 text-center md:text-left">
+                    <p class="text-sm text-gray-400">2021 – 2025</p>
+                    <h3 class="text-xl font-bold text-white mt-2">Bachelor of Engineering – Computer</h3>
+                    <p class="mt-1 text-sky-400">VidyaVardhini’s College of Engineering and Technology</p>
+                    <p class="mt-3 text-gray-300 font-medium">CGPI: 8.26/10</p>
+                </div>
+                
+                <div class="education-card rounded-xl p-6 text-center md:text-left">
+                     <p class="text-sm text-gray-400">Jan 2025 – Present</p>
+                    <h3 class="text-xl font-bold text-white mt-2">Full Stack Development</h3>
+                    <p class="mt-1 text-sky-400">Coding Ninjas</p>
+                     <p class="mt-3 text-gray-300">Comprehensive training in modern web technologies.</p>
+                </div>
+            </div>
+        </section>
+
+         <section id="projects" class="py-20">
+            <h2 class="text-3xl font-bold text-center text-white mb-4">Projects</h2>
+            <p class="text-center text-gray-400 max-w-2xl mx-auto mb-12">
+                <span class="font-semibold text-amber-400">Please Note:</span> These projects are hosted on free-tier services. They may take a moment to load or might be temporarily inactive due to inactivity.
+            </p>
+
+            <div class="grid md:grid-cols-2 gap-8">
+                
+                <div class="project-card rounded-xl p-8 flex flex-col">
+                    <h3 class="text-2xl font-bold text-white">TeamKeep</h3>
+                    <p class="text-gray-400 mt-3 flex-grow">A full-stack Employee Management System built with the MERN stack (MongoDB, Express, Node.js) and an EJS front-end. Features a secure CRUD API and an admin dashboard with session-based authentication.</p>
+                    <div class="mt-6 bg-gray-800 p-3 rounded-lg text-sm">
+                        <p class="text-gray-300">Admin Credentials:</p>
+                        <p><span class="font-semibold text-sky-400">Username:</span> admin</p>
+                        <p><span class="font-semibold text-sky-400">Password:</span> adminpassword</p>
+                    </div>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://eureka2711.onrender.com" target="_blank" class="bg-sky-500 text-white font-semibold px-5 py-2 rounded-full hover:bg-sky-600 transition-colors duration-300 text-sm inline-flex items-center gap-2">Live Demo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                        <a href="https://github.com/advait2711/eureka2711" target="_blank" class="border border-gray-600 text-gray-300 font-semibold px-5 py-2 rounded-full hover:bg-gray-700 hover:border-gray-500 transition-colors duration-300 text-sm inline-flex items-center gap-2">Source Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/></svg></a>
+                    </div>
+                </div>
+
+                
+                <div class="project-card rounded-xl p-8 flex flex-col">
+                    <h3 class="text-2xl font-bold text-white">CV Analyzer</h3>
+                    <p class="text-gray-400 mt-3 flex-grow">An AI-powered web app that analyzes resumes (PDF, DOCX, XLSX) using the Google Gemini API to extract and structure candidate data. Features secure JWT authentication and a drag-and-drop file upload interface.</p>
+                    <div class="mt-6 flex items-center gap-4">
+                        <a href="https://cv-resume-analyzer.onrender.com" target="_blank" class="bg-sky-500 text-white font-semibold px-5 py-2 rounded-full hover:bg-sky-600 transition-colors duration-300 text-sm inline-flex items-center gap-2">Live Demo <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg></a>
+                        <a href="https://github.com/advait2711/cv_resume_analyzer" target="_blank" class="border border-gray-600 text-gray-300 font-semibold px-5 py-2 rounded-full hover:bg-gray-700 hover:border-gray-500 transition-colors duration-300 text-sm inline-flex items-center gap-2">Source Code <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M15 22v-4a4.8 4.8 0 0 0-1-3.5c3 0 6-2 6-5.5.08-1.25-.27-2.48-1-3.5.28-1.15.28-2.35 0-3.5 0 0-1 0-3 1.5-2.64-.5-5.36-.5-8 0C6 2 5 2 5 2c-.3 1.15-.3 2.35 0 3.5A5.403 5.403 0 0 0 4 9c0 3.5 3 5.5 6 5.5-.39.49-.68 1.05-.85 1.65-.17.6-.22 1.23-.15 1.85v4"/></svg></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="skills" class="py-20">
+            <h2 class="text-3xl font-bold text-center text-white mb-12">Technical Skills</h2>
+            <div class="flex flex-wrap justify-center gap-3 md:gap-4">
+                <span class="skill-tag">Python</span>
+                <span class="skill-tag">JavaScript</span>
+                <span class="skill-tag">TypeScript</span>
+                <span class="skill-tag">C</span>
+                <span class="skill-tag">SQL</span>
+                <span class="skill-tag">HTML</span>
+                <span class="skill-tag">CSS</span>
+                <span class="skill-tag">Node.js</span>
+                <span class="skill-tag">Express.js</span>
+                <span class="skill-tag">Django</span>
+                <span class="skill-tag">React</span>
+                <span class="skill-tag">TailwindCSS</span>
+                <span class="skill-tag">Bootstrap</span>
+                <span class="skill-tag">MongoDB</span>
+                <span class="skill-tag">PostgreSQL</span>
+                <span class="skill-tag">MySQL</span>
+                <span class="skill-tag">Firebase</span>
+                <span class="skill-tag">REST APIs</span>
+                <span class="skill-tag">Git</span>
+                <span class="skill-tag">GitHub</span>
+                <span class="skill-tag">AWS EC2</span>
+                <span class="skill-tag">Vercel</span>
+                <span class="skill-tag">Render</span>
+                <span class="skill-tag">Postman</span>
+            </div>
+        </section>
+
+        
+       
+
+    </main>
+
+    
+    <footer class="text-center py-10 mt-20 border-t border-gray-800">
+        <p class="text-gray-500">&copy; 2024 Advait Alinkil.</p>
+    </footer>
+
+</body>
+</html>
